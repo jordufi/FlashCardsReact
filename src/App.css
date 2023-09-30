@@ -13,26 +13,20 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App.css */
+.imagen-pequena {
+  height: auto; /* Esto mantiene la proporción de aspecto */
+  width: 300px; /* Cambia este valor al tamaño deseado */
+}
+.contenedor-botones {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 400px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.boton {
+  margin-left: 10px; /* Espacio entre los botones */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-right: 10px; /* Espacio entre los botones */
+  padding: 10px 20px; /* Ajusta el tamaño del botón aquí (padding) */
+  font-size: 25px; /* Ajusta el tamaño del texto del botón */
 }
